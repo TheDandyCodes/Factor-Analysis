@@ -1,0 +1,10 @@
+numpy
+pandas
+scikit-learn
+matplotlib
+seaborn
+factor_analyzer
+streamlit
+python-dotenv
+kagglehub
+kaggle

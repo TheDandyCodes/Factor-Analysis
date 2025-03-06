@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=45", "setuptools_scm[toml]>=6.2"]
+build-backend = "setuptools.build_meta"
+
+[project]
+requires-python = ">=3.11,<3.12"
+name = "Factor-Analysis"
+version = "0.1.0"
+description = "Factor Analysis over dataset and Loadings Visualization"
+readme = "README.md"
+authors = [{ name = "TheDandyCodes", email = "ricardoprietoaiml@gmail.com" }]
+dynamic = ["dependencies", "optional-dependencies"]
+
+[project.urls]
+homepage = "https://github.com/TheDandyCodes/Factor-Analysis"
+
+[tool.setuptools.dynamic]
+dependencies = { file = ["requirements.in"] }
